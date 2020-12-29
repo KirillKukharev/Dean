@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="534E3F1E-45DF-AB6D-C6C1-163763D6E3C7" name="LogDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:18:31 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="721D117A-9492-3C83-A95B-7625B2E1278C">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:18:38 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login" id="2DA23048-77AA-9E89-B9D8-CE759200D31F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:18:51 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="7AD165D9-024A-7043-E943-91E1BEB2A85F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:20:23 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F92728D1-E1B9-C436-8467-C327FDECCA8A" name="LogDb PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:18:48 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>721D117A-9492-3C83-A95B-7625B2E1278C</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="6756FB71-DB34-5357-9C32-55C9F5F300AE" name="Unic_login">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:21:14 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<newElementsIDs>2DA23048-77AA-9E89-B9D8-CE759200D31F</newElementsIDs>
+<usedAttributes>
+<attributeRef>2DA23048-77AA-9E89-B9D8-CE759200D31F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="928CD42F-0249-EE40-76CE-39A3C6605EBA" containerWithKeyObject="E43DB5F2-3568-60E1-B82A-88880306BE03" localFKIndex="B85D1C28-3A35-E985-E243-96B2C55F81A7" name="GraduateDb_GroupsDb_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>1AE27A22-3135-E34C-944B-6C488BA63484</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<referredTableLongName>GroupsDb</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F5002D40-1A0B-A52D-9FEB-2CA8DEF15638</referredTableID>
+<keyObject>C1C9EF0D-BF53-85AC-C0D3-1F11C23E4A4D</keyObject>
+<referredKeyID>C1C9EF0D-BF53-85AC-C0D3-1F11C23E4A4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Group_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

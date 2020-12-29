@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F303D872-61BF-9B15-2C1A-FE3705C791E0" name="SubjectsDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>69B90BE3-A931-700B-E073-D8E6BC300172</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sub_id" id="52694CAC-FF53-B67F-88D0-AB441A55B97E">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>35841CB4-C711-A67A-89E4-F43FCFB7E64F</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Subject_name" id="A57B9818-73BC-6A8B-CEF6-47A6F443BC23">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>24116C40-537F-E174-5C9A-53A589DC4ABB</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C314A513-14D7-2D68-1A43-C1967BA509D3" name="SubjectsDb_PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>1D28F7FF-F1C1-9511-D4AE-E669BC1A342F</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52694CAC-FF53-B67F-88D0-AB441A55B97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F52A3968-22BD-8B56-C4F4-3F1A6C8DA1F0" name="SubjectsDb_Subject_name_UN">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>6F4AA425-820D-26A8-479C-11191EC29E84</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A57B9818-73BC-6A8B-CEF6-47A6F443BC23"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

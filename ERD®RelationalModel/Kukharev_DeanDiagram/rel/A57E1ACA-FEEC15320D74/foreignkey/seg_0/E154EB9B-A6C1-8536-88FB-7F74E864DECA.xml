@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E154EB9B-A6C1-8536-88FB-7F74E864DECA" containerWithKeyObject="BAEB203D-7AE5-186D-D1BA-9715FDD987F4" localFKIndex="B54EAA1F-FB67-A69E-CEF9-23445C2CF2BF" name="StudDb_YearOfStudyDb_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>FC5AF646-6521-2B2B-1795-AC8A132BFC1C</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<referredTableLongName>YearOfStudyDb</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>381850BC-8DA1-BBDC-1F74-4152C413D999</referredTableID>
+<keyObject>5E5E9EA5-C291-2205-69A6-D5F8CB0EAB23</keyObject>
+<referredKeyID>5E5E9EA5-C291-2205-69A6-D5F8CB0EAB23</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>YearId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

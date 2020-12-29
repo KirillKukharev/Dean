@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="periodschedule" directorySegmentName="seg_0" id="5C5A22F6-68E5-C0B3-9626-F7E9DA6CD1A1">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:07:07 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>61A2CE15-F59E-B0A5-D3B2-30E5527E2C38</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>get stud time</nameOnSource>
+<nameOnTarget>post stud time</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D86A22D1-C7DA-AA42-A382-573C7B85EE12</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00C57A07-078E-D076-C641-95702F25D3B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

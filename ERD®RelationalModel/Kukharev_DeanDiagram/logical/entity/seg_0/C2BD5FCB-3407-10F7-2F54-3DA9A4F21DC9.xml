@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C2BD5FCB-3407-10F7-2F54-3DA9A4F21DC9" name="PlugDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:36:37 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Change" id="BC73CD37-5611-CBBD-27E2-D28CC2570360">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:36:57 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

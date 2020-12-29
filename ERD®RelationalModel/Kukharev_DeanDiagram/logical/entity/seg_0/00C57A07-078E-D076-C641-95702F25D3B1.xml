@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="00C57A07-078E-D076-C641-95702F25D3B1" name="ScheduleDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:37:33 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Schedule_id" id="D3E450D0-E57D-636F-E46C-6B847E781D45">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:38:11 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Groupname" id="D2FBD206-3D57-5C92-0DB5-91E4958F6A35">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:44:40 UTC</createdTime>
+<generatorID>71C9D062-C236-2ECF-7496-6A3EA7BD2D66</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>6A1ABF9D-62D3-BB2C-BE53-583E80BD7FCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Teacher" id="F89D6CAA-5704-10FD-5D92-8DCE9D380133">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:02:10 UTC</createdTime>
+<generatorID>AA3E3F4D-DBC8-F122-5BB1-ADF1237079D0</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>646413A9-1B78-45A7-2D01-17B9C5990ACB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Subject" id="84E4BB46-C630-19A4-6BFA-FD05CEBC90CC">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:03:05 UTC</createdTime>
+<generatorID>24ABB2DD-934F-8441-1B43-F2E4BEF9EA20</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>35841CB4-C711-A67A-89E4-F43FCFB7E64F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DayOfWeek" id="1CF365F2-45D7-5EAA-AD67-97B997794103">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:03:40 UTC</createdTime>
+<generatorID>DB7F664C-3745-BB8D-5E2F-4014B6AFEEED</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>024BCDF2-DD0A-6B4B-D278-A96DB533A5F9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="YearofStudy" id="B5BC25F0-65C4-7AD9-9904-F220E7FF0C9F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:04:17 UTC</createdTime>
+<generatorID>880E5287-3653-9C16-CBF6-75DCD8705DAA</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>E90D4D97-30F9-60D8-54CB-8DDEA9AEED96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Classromm" id="1421D0FA-B09E-14FE-4492-9D03B48F44DD">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:42:18 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LessonNum" id="EF0F5740-F9CA-1E92-831B-A489CB19EC3F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:43:02 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PairOfGroup" id="FED7C33B-CF57-A967-4BEE-B305BCFE3984">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:43:18 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Semestr" id="6131D8EC-0EA2-4046-D418-0FCD3A7D1B66">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:07:07 UTC</createdTime>
+<generatorID>5C5A22F6-68E5-C0B3-9626-F7E9DA6CD1A1</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>8F89FF52-9949-3141-1836-92CBDD22FB48</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BAA0A07D-F4B0-0EB5-1AC1-AA091D3E81D9" name="ScheduleDb PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:01:09 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3E450D0-E57D-636F-E46C-6B847E781D45</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="35A97A52-FFA9-40CE-6886-F0C0B1F4A706" name="DayOfWeekDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>8CBCBE11-A59B-6E86-8BF1-FAB90D6649D7</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Day_id" id="2C0D5805-F2C4-A61C-8DCD-C52C35A4F2EA">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>024BCDF2-DD0A-6B4B-D278-A96DB533A5F9</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="day_name" id="C2CBD03C-0C51-8529-1E33-BC8F7EE1521A">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>5530DC95-E678-BF76-3032-E5A5131D79B5</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="05582223-7FBB-DBEA-3DD1-1A86EE39608F" name="DayOfWeekDb_PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>3A962554-E8D2-4027-FD9C-37C5FE46A473</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C0D5805-F2C4-A61C-8DCD-C52C35A4F2EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EED34254-1082-CE5C-62F1-5D5F8F63195B" containerWithKeyObject="BAEB203D-7AE5-186D-D1BA-9715FDD987F4" localFKIndex="0D2F506D-68AB-8ED8-936A-9A8358F42B88" name="StudDb_FoeDB_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>FB123FEA-EEDA-CA5C-5A18-483744D3D65B</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<referredTableLongName>FoeDB</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63596D10-B1E6-CA87-8F78-C80CC6AFC55F</referredTableID>
+<keyObject>97CE6E23-3259-4401-1A43-8571FB6019BC</keyObject>
+<referredKeyID>97CE6E23-3259-4401-1A43-8571FB6019BC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Form_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

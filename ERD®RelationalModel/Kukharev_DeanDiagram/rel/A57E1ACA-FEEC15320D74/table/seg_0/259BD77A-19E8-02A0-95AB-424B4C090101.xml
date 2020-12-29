@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="259BD77A-19E8-02A0-95AB-424B4C090101" name="TeachersDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>01F66746-6891-3F99-BE78-CF1098B977ED</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Teacher_id" id="979FC101-827A-5302-6510-908F283012DD">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>646413A9-1B78-45A7-2D01-17B9C5990ACB</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teacher_name" id="E9078806-6606-4F39-05BB-90DBD32C3632">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>62F22126-2642-7680-0E7E-7D40104CD44C</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TeacherQualification" id="6CD1EABF-B456-C5EF-FED1-49CAFC20B7B6">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>EB3537C5-B89D-5F8A-4CE2-CC679FBEA8D3</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teacher_lastname" id="6C65B69E-FC98-0A5E-C291-44BFAFFEB8AC">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>8866D467-0A5F-86DC-AE00-D34F3B8F45F9</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4D5FDE15-EAE8-E6CA-9CA0-0A3BD32DC8FD" name="TeachersDb_PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>0EF60BD9-4EFB-261E-29DF-E9C4C3593815</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="979FC101-827A-5302-6510-908F283012DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

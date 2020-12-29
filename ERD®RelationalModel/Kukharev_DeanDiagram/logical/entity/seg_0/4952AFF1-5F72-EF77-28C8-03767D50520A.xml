@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4952AFF1-5F72-EF77-28C8-03767D50520A" name="StudDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:15:28 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id" id="8587B156-3519-7267-8A98-2D6D39F6910B">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:28:01 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stud_number" id="FE35BC68-2E29-E060-9895-47B27370FA2F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:23:02 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Group_name" id="405E19AF-240E-5337-C57D-6217AD34919E">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:45:42 UTC</createdTime>
+<generatorID>1ABE9DE8-58D9-3AD2-F99E-49CF07EF5285</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>6A1ABF9D-62D3-BB2C-BE53-583E80BD7FCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_name" id="B76BD229-DE86-AB1F-AD40-6BE98CC59F7F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:28:21 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Last_name" id="0590EA50-842B-4CAF-3DFA-14B384CC610D">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:28:55 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Middle_name" id="F2E48CBC-5326-CAF7-A382-80E5D2C26B68">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:29:22 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="8838B226-37FC-EA8E-1185-DFAC25D151D8">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:29:55 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Birthday" id="904FD630-BF52-E7AB-126C-2805F7F4ADEB">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:30:13 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone_number" id="8BE84AA1-6EAA-7662-3EB7-0BF557A22B3D">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:30:36 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mother_phone" id="6F5AB8B6-957E-E4F0-3842-6BA5342AC9FE">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:31:17 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Father_phone" id="A8DAE662-6021-ED9C-5AF6-C553DD8ACE89">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:31:41 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Admission_type" id="115A1E31-A424-9941-1E81-0CF241AF72B0">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:13:53 UTC</createdTime>
+<generatorID>FB123FEA-EEDA-CA5C-5A18-483744D3D65B</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>474D0AF5-10CE-59B5-4062-39939F8D8A8F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Year_of_study" id="BA7B3543-F5C9-119F-C344-783C9F4D5EE1">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:08:16 UTC</createdTime>
+<generatorID>FC5AF646-6521-2B2B-1795-AC8A132BFC1C</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>E90D4D97-30F9-60D8-54CB-8DDEA9AEED96</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8268AA57-CFCC-34F0-7A04-FD984BF9D003" name="StudDb PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:22:05 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>8587B156-3519-7267-8A98-2D6D39F6910B</newElementsIDs>
+<usedAttributes>
+<attributeRef>8587B156-3519-7267-8A98-2D6D39F6910B</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C93CD23C-692C-11E8-478D-422C58C9D6B7" name="Stud_number">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:26:48 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<newElementsIDs>FE35BC68-2E29-E060-9895-47B27370FA2F</newElementsIDs>
+<usedAttributes>
+<attributeRef>FE35BC68-2E29-E060-9895-47B27370FA2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="12CC50F8-4A79-39DB-EBBC-57BB191F7DF3" name="MarksAndOffsetsDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>14721B05-1A2B-6DB9-39C6-6E5C5B9EFDDC</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="94A275A8-AA3C-5951-BB0D-FD38DBB05854">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>6333DA52-707A-4961-0C5A-BBCA9D2E227B</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StudDb_Id" id="34B133B2-8FBA-BA04-68B3-40FBC936A874">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>AF545E05-3F27-3BD7-343C-F6632C89BE37</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01D6F7C5-67BA-04A9-68C8-FEFFB7878C4C" referredColumn="82A58D2C-28FD-9D27-38C8-5657ACB7BF65"/>
+</associations>
+</Column>
+<Column name="SubjectsDb_Sub_id" id="D4F315D5-7B60-F285-7237-C98DFAE2A96B">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>3C0F50EB-110E-9108-09F8-1C8E4F4A2183</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B9C999F6-63B3-E816-8366-53ED69BD0248" referredColumn="52694CAC-FF53-B67F-88D0-AB441A55B97E"/>
+</associations>
+</Column>
+<Column name="MarkOrOfset" id="4266735E-F6F1-8D34-327C-F745102F6C32">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>63BF860C-FA69-EFCC-29E0-3CC0750C9DA2</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="DB0AE952-3D1B-B88C-2956-00CD4DC686FF">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>0AA7BF0E-CC5B-5289-A4DF-3C24BE41CD6F</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="16D1CE98-A01E-CB07-4D37-2D254473B294" name="MarksAndOffsetsDb_PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:09 UTC</createdTime>
+<generatorID>9B68D081-9B9F-3A68-79B3-C46D09DBE49C</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94A275A8-AA3C-5951-BB0D-FD38DBB05854"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CDF4394-058D-BFE6-4C4D-86F94D015EF9" name="MarksAndOffsetsDb_StudDb_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>1E904048-592A-25D5-2DFC-FDFFEBCE2C24</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B133B2-8FBA-BA04-68B3-40FBC936A874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B91872B-3AE5-F843-150F-E3280BF341F2" name="MarksAndOffsetsDb_SubjectsDb_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>0128AA5C-F2FF-B5BD-558E-F41CF8684475</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4F315D5-7B60-F285-7237-C98DFAE2A96B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

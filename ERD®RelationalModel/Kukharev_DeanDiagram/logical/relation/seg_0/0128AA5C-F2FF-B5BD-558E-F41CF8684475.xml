@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="markssubj" directorySegmentName="seg_0" id="0128AA5C-F2FF-B5BD-558E-F41CF8684475">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:59:37 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>1D28F7FF-F1C1-9511-D4AE-E669BC1A342F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post subj info</nameOnSource>
+<nameOnTarget>get subj info</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69B90BE3-A931-700B-E073-D8E6BC300172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14721B05-1A2B-6DB9-39C6-6E5C5B9EFDDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

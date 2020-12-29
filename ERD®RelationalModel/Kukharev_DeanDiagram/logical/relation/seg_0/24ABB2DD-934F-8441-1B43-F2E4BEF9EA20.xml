@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="schedulesubj" directorySegmentName="seg_0" id="24ABB2DD-934F-8441-1B43-F2E4BEF9EA20">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:03:05 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>1D28F7FF-F1C1-9511-D4AE-E669BC1A342F</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post subj</nameOnSource>
+<nameOnTarget>get subject</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>69B90BE3-A931-700B-E073-D8E6BC300172</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00C57A07-078E-D076-C641-95702F25D3B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

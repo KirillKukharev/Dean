@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="38526AD0-89DC-3AAF-5007-0CE73B5BEAC7" containerWithKeyObject="D93B1AB9-5707-5424-119F-F69F214E2CE1" localFKIndex="12B27066-5808-9E30-E690-5D66F0DA1009" name="ScheduleDb_DayOfWeekDb_FK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:32:10 UTC</createdTime>
+<generatorID>DB7F664C-3745-BB8D-5E2F-4014B6AFEEED</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<referredTableLongName>DayOfWeekDb</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>35A97A52-FFA9-40CE-6886-F0C0B1F4A706</referredTableID>
+<keyObject>05582223-7FBB-DBEA-3DD1-1A86EE39608F</keyObject>
+<referredKeyID>05582223-7FBB-DBEA-3DD1-1A86EE39608F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Day_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

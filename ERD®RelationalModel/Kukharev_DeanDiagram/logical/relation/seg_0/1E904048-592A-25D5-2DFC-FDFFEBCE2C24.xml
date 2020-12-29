@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Marksandoffsets" directorySegmentName="seg_0" id="1E904048-592A-25D5-2DFC-FDFFEBCE2C24">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:32:22 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>8268AA57-CFCC-34F0-7A04-FD984BF9D003</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post info about stud</nameOnSource>
+<nameOnTarget>get stud info</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4952AFF1-5F72-EF77-28C8-03767D50520A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>14721B05-1A2B-6DB9-39C6-6E5C5B9EFDDC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

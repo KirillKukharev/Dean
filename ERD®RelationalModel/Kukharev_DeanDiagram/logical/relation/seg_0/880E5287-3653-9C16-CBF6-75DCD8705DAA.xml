@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="scheduleyear" directorySegmentName="seg_0" id="880E5287-3653-9C16-CBF6-75DCD8705DAA">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:04:17 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>B88AD422-4F08-55DB-E7A8-0DF8935ECFC3</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post year of study</nameOnSource>
+<nameOnTarget>get year of study</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E2A421CC-1DDA-A5F8-BFDC-936307937A52</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00C57A07-078E-D076-C641-95702F25D3B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

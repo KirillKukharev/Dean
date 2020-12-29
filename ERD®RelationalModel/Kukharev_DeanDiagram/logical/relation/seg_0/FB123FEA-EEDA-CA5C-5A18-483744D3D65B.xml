@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="admtype" directorySegmentName="seg_0" id="FB123FEA-EEDA-CA5C-5A18-483744D3D65B">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:13:53 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>2A92A25D-5203-6CB4-E800-C2D30D44EE7E</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post admtype</nameOnSource>
+<nameOnTarget>get admtype</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E001A073-7642-4334-DC02-0479170EED39</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4952AFF1-5F72-EF77-28C8-03767D50520A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

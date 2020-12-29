@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="14721B05-1A2B-6DB9-39C6-6E5C5B9EFDDC" name="MarksAndOffsetsDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:23:37 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="6333DA52-707A-4961-0C5A-BBCA9D2E227B">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:24:18 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="USER_ID" id="AF545E05-3F27-3BD7-343C-F6632C89BE37">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:32:22 UTC</createdTime>
+<generatorID>1E904048-592A-25D5-2DFC-FDFFEBCE2C24</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>8587B156-3519-7267-8A98-2D6D39F6910B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SubjectName" id="3C0F50EB-110E-9108-09F8-1C8E4F4A2183">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:59:37 UTC</createdTime>
+<generatorID>0128AA5C-F2FF-B5BD-558E-F41CF8684475</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>35841CB4-C711-A67A-89E4-F43FCFB7E64F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MarkOrOfset" id="63BF860C-FA69-EFCC-29E0-3CC0750C9DA2">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:29:06 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="0AA7BF0E-CC5B-5289-A4DF-3C24BE41CD6F">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:29:20 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B68D081-9B9F-3A68-79B3-C46D09DBE49C" name="MarksAndOffsets PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 19:24:35 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6333DA52-707A-4961-0C5A-BBCA9D2E227B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="scheduleday" directorySegmentName="seg_0" id="DB7F664C-3745-BB8D-5E2F-4014B6AFEEED">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 20:03:40 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<sourcePk>3A962554-E8D2-4027-FD9C-37C5FE46A473</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>post  day</nameOnSource>
+<nameOnTarget>get  day</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8CBCBE11-A59B-6E86-8BF1-FAB90D6649D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>00C57A07-078E-D076-C641-95702F25D3B1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="89003ABE-C381-30FA-52B8-A2BB30E0CB04" name="GroupsDb">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:35:14 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Group_id" id="6A1ABF9D-62D3-BB2C-BE53-583E80BD7FCB">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:36:38 UTC</createdTime>
+<generatorID>F0CE2E1D-1D37-49BA-4BEF-C94F8151C6F6</generatorID>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<referedAttribute>8587B156-3519-7267-8A98-2D6D39F6910B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Group_name" id="1720D09C-F1DC-8ABA-D213-E7D1E357E933">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:35:39 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BB85B3F7-41E0-4716-5E14-224A4BFE20DB" name="GroupsDb PK">
+<createdBy>nigga</createdBy>
+<createdTime>2020-12-20 18:35:37 UTC</createdTime>
+<ownerDesignName>Kukharev_DeanDiagram</ownerDesignName>
+<engineerTo>
+<item key="A57E1ACA-AB1D-E45D-A329-FEEC15320D74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A1ABF9D-62D3-BB2C-BE53-583E80BD7FCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
